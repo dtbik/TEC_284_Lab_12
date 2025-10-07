@@ -4,7 +4,7 @@ from mcpi_addons.minecraft import Minecraft
 mc = Minecraft.create()
 # Type in chat in game
 mc.postToChat("Hello World!")
-# Change the position of the player
+# Places a house on the given coordinates the user types
 x = input("X Coordinates: ")
 y = input("Y Coordinates: ")
 z = input("Z Coordinates: ")
