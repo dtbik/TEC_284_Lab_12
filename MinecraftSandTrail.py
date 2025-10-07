@@ -4,6 +4,7 @@ from mcpi_addons.minecraft import Minecraft
 mc = Minecraft.create();
 import time
 
+# Creates a loop where for 30 seconds, sand is placed underneath the player
 count = 0
 while count < 30:
     pos = mc.player.getPos()
